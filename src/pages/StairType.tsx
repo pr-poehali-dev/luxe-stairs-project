@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ChatWidget from '@/components/ChatWidget';
 import ContactForm from '@/components/ContactForm';
 import { Button } from '@/components/ui/button';
 import Icon from '@/components/ui/icon';
@@ -220,6 +221,7 @@ const StairType = () => {
       </section>
 
       <Footer />
+      <ChatWidget />
     </div>
   );
 };

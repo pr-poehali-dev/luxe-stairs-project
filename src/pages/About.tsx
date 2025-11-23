@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ChatWidget from '@/components/ChatWidget';
 import ContactForm from '@/components/ContactForm';
 import { Card } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
@@ -147,6 +148,7 @@ const About = () => {
       </section>
 
       <Footer />
+      <ChatWidget />
     </div>
   );
 };

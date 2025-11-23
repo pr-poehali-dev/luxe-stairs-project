@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ChatWidget from '@/components/ChatWidget';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
@@ -203,6 +204,7 @@ const Index = () => {
       </section>
 
       <Footer />
+      <ChatWidget />
     </div>
   );
 };

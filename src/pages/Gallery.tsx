@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ChatWidget from '@/components/ChatWidget';
 
 const Gallery = () => {
   const galleryImages = [
@@ -51,6 +52,7 @@ const Gallery = () => {
       </section>
 
       <Footer />
+      <ChatWidget />
     </div>
   );
 };
