@@ -127,7 +127,7 @@ const Index = () => {
                     <img
                       src={type.image}
                       alt={type.title}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 mx-0 rounded-sm"
                     />
                   </div>
                   <div className="p-6">
