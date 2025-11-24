@@ -58,13 +58,13 @@ const Header = () => {
           </div>
 
           <div className="flex-1 flex flex-col items-end gap-1">
-            <a href="tel:+71111111111" className="flex items-center gap-2 text-sm hover:text-accent transition-colors">
+            <a href="tel:+79296251892" className="flex items-center gap-2 text-sm hover:text-accent transition-colors">
               <Icon name="Phone" size={16} />
-              +7 111 111 11 11
+              +7 (929) 625 18-92
             </a>
-            <a href="mailto:1234d@gmail.com" className="flex items-center gap-2 text-sm hover:text-accent transition-colors">
+            <a href="mailto:zakaz2009@yandex.ru" className="flex items-center gap-2 text-sm hover:text-accent transition-colors">
               <Icon name="Mail" size={16} />
-              1234d@gmail.com
+              zakaz2009@yandex.ru
             </a>
           </div>
         </div>

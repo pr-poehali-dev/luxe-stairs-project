@@ -87,7 +87,7 @@ const ChatWidget = () => {
               <p className="text-xs text-muted-foreground mb-2">Или свяжитесь с нами напрямую:</p>
               <div className="flex justify-center gap-3">
                 <a
-                  href="https://wa.me/71111111111"
+                  href="https://wa.me/79296251892"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-8 h-8 bg-accent/10 hover:bg-accent hover:text-accent-foreground rounded-full flex items-center justify-center transition-all"
@@ -96,14 +96,14 @@ const ChatWidget = () => {
                   <Icon name="MessageCircle" size={16} />
                 </a>
                 <a
-                  href="tel:+71111111111"
+                  href="tel:+79296251892"
                   className="w-8 h-8 bg-accent/10 hover:bg-accent hover:text-accent-foreground rounded-full flex items-center justify-center transition-all"
                   title="Позвонить"
                 >
                   <Icon name="Phone" size={16} />
                 </a>
                 <a
-                  href="mailto:1234d@gmail.com"
+                  href="mailto:zakaz2009@yandex.ru"
                   className="w-8 h-8 bg-accent/10 hover:bg-accent hover:text-accent-foreground rounded-full flex items-center justify-center transition-all"
                   title="Email"
                 >

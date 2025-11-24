@@ -13,13 +13,13 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Контакты</h4>
             <div className="space-y-2 text-sm">
-              <a href="tel:+71111111111" className="flex items-center gap-2 hover:text-accent transition-colors">
+              <a href="tel:+79296251892" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Icon name="Phone" size={16} />
-                +7 111 111 11 11
+                +7 (929) 625 18-92
               </a>
-              <a href="mailto:1234d@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
+              <a href="mailto:zakaz2009@yandex.ru" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Icon name="Mail" size={16} />
-                1234d@gmail.com
+                zakaz2009@yandex.ru
               </a>
               <p className="flex items-center gap-2">
                 <Icon name="MapPin" size={16} />
@@ -32,7 +32,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Мы в социальных сетях</h4>
             <div className="flex gap-4">
               <a
-                href="https://wa.me/71111111111"
+                href="https://wa.me/79296251892"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary/20 hover:bg-accent hover:text-primary flex items-center justify-center transition-all"
@@ -40,13 +40,13 @@ const Footer = () => {
                 <Icon name="MessageCircle" size={20} />
               </a>
               <a
-                href="mailto:1234d@gmail.com"
+                href="mailto:zakaz2009@yandex.ru"
                 className="w-10 h-10 rounded-full bg-secondary/20 hover:bg-accent hover:text-primary flex items-center justify-center transition-all"
               >
                 <Icon name="Mail" size={20} />
               </a>
               <a
-                href="tel:+71111111111"
+                href="tel:+79296251892"
                 className="w-10 h-10 rounded-full bg-secondary/20 hover:bg-accent hover:text-primary flex items-center justify-center transition-all"
               >
                 <Icon name="Phone" size={20} />

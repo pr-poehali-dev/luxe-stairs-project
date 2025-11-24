@@ -35,8 +35,8 @@ const Contacts = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-2">Телефон</h3>
-                    <a href="tel:+71111111111" className="text-muted-foreground hover:text-accent transition-colors">
-                      +7 111 111 11 11
+                    <a href="tel:+79296251892" className="text-muted-foreground hover:text-accent transition-colors">
+                      +7 (929) 625 18-92
                     </a>
                     <p className="text-sm text-muted-foreground mt-1">
                       Ежедневно с 9:00 до 21:00
@@ -52,8 +52,8 @@ const Contacts = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-2">Email</h3>
-                    <a href="mailto:1234d@gmail.com" className="text-muted-foreground hover:text-accent transition-colors">
-                      1234d@gmail.com
+                    <a href="mailto:zakaz2009@yandex.ru" className="text-muted-foreground hover:text-accent transition-colors">
+                      zakaz2009@yandex.ru
                     </a>
                     <p className="text-sm text-muted-foreground mt-1">
                       Ответим в течение 24 часов
@@ -81,7 +81,7 @@ const Contacts = () => {
                 <h3 className="font-semibold mb-4">Мы в мессенджерах</h3>
                 <div className="flex gap-4">
                   <a
-                    href="https://wa.me/71111111111"
+                    href="https://wa.me/79296251892"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-accent/20 hover:bg-accent hover:text-primary flex items-center justify-center transition-all"
@@ -89,13 +89,13 @@ const Contacts = () => {
                     <Icon name="MessageCircle" size={24} />
                   </a>
                   <a
-                    href="mailto:1234d@gmail.com"
+                    href="mailto:zakaz2009@yandex.ru"
                     className="w-12 h-12 rounded-full bg-accent/20 hover:bg-accent hover:text-primary flex items-center justify-center transition-all"
                   >
                     <Icon name="Mail" size={24} />
                   </a>
                   <a
-                    href="tel:+71111111111"
+                    href="tel:+79296251892"
                     className="w-12 h-12 rounded-full bg-accent/20 hover:bg-accent hover:text-primary flex items-center justify-center transition-all"
                   >
                     <Icon name="Phone" size={24} />
