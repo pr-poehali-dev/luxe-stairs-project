@@ -12,31 +12,31 @@ const Index = () => {
       id: 'kosoour',
       title: 'Косоур',
       description: 'Классическая конструкция с центральной несущей балкой',
-      image: 'https://cdn.poehali.dev/projects/a5847194-2e0e-4567-a4c9-effc90f6d0d9/files/2d94bd56-8fb0-4205-a8b6-fb2f8c294ea9.jpg'
+      image: 'https://cdn.poehali.dev/files/e31e4daa-87f6-4a35-9af8-f554528e3eeb.jpg'
     },
     {
       id: 'monokosoour',
       title: 'Монокосоур',
       description: 'Современный дизайн с единой центральной опорой',
-      image: 'https://cdn.poehali.dev/projects/a5847194-2e0e-4567-a4c9-effc90f6d0d9/files/2149fd21-7efe-4180-80da-f1a6803046a3.jpg'
+      image: 'https://cdn.poehali.dev/files/8641dde5-f8ec-41aa-ac9e-2070db526870.jpg'
     },
     {
       id: 'spiral',
       title: 'Винтовые',
       description: 'Элегантное решение для экономии пространства',
-      image: 'https://cdn.poehali.dev/projects/a5847194-2e0e-4567-a4c9-effc90f6d0d9/files/a01b832e-fc72-455f-92ec-fa0768e0d12c.jpg'
+      image: 'https://cdn.poehali.dev/files/b4d13b5e-1b7f-42ce-a5b7-7d2a6eaf4d0d.jpg'
     },
     {
       id: 'tetiva',
       title: 'Тетива',
       description: 'Традиционная конструкция с боковыми несущими элементами',
-      image: 'https://cdn.poehali.dev/projects/a5847194-2e0e-4567-a4c9-effc90f6d0d9/files/2d94bd56-8fb0-4205-a8b6-fb2f8c294ea9.jpg'
+      image: 'https://cdn.poehali.dev/files/4d00b8fe-5e18-4c69-b774-822bf71cbd33.jpg'
     },
     {
       id: 'cladding',
       title: 'Облицовка ступеней',
       description: 'Преображение существующих лестниц премиальными материалами',
-      image: 'https://cdn.poehali.dev/projects/a5847194-2e0e-4567-a4c9-effc90f6d0d9/files/2149fd21-7efe-4180-80da-f1a6803046a3.jpg'
+      image: 'https://cdn.poehali.dev/files/6616496b-f252-4045-8577-5c6f71388fcd.jpg'
     }
   ];
 
@@ -69,9 +69,9 @@ const Index = () => {
   ];
 
   const galleryImages = [
-    'https://cdn.poehali.dev/projects/a5847194-2e0e-4567-a4c9-effc90f6d0d9/files/2d94bd56-8fb0-4205-a8b6-fb2f8c294ea9.jpg',
-    'https://cdn.poehali.dev/projects/a5847194-2e0e-4567-a4c9-effc90f6d0d9/files/a01b832e-fc72-455f-92ec-fa0768e0d12c.jpg',
-    'https://cdn.poehali.dev/projects/a5847194-2e0e-4567-a4c9-effc90f6d0d9/files/2149fd21-7efe-4180-80da-f1a6803046a3.jpg'
+    'https://cdn.poehali.dev/files/e31e4daa-87f6-4a35-9af8-f554528e3eeb.jpg',
+    'https://cdn.poehali.dev/files/8641dde5-f8ec-41aa-ac9e-2070db526870.jpg',
+    'https://cdn.poehali.dev/files/b4d13b5e-1b7f-42ce-a5b7-7d2a6eaf4d0d.jpg'
   ];
 
   return (
@@ -81,7 +81,7 @@ const Index = () => {
       <section className="relative h-[600px] flex items-center justify-center bg-gradient-to-br from-primary to-primary/80 text-primary-foreground overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
-            src="https://cdn.poehali.dev/projects/a5847194-2e0e-4567-a4c9-effc90f6d0d9/files/2d94bd56-8fb0-4205-a8b6-fb2f8c294ea9.jpg"
+            src="https://cdn.poehali.dev/files/e31e4daa-87f6-4a35-9af8-f554528e3eeb.jpg"
             alt="Background"
             className="w-full h-full object-cover"
           />
@@ -187,14 +187,14 @@ const Index = () => {
             Обсудим ваш проект и подберём оптимальное решение
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="tel:+71111111111" className="flex items-center gap-2 text-lg hover:text-accent transition-colors">
+            <a href="tel:+79296251892" className="flex items-center gap-2 text-lg hover:text-accent transition-colors">
               <Icon name="Phone" size={20} />
-              +7 111 111 11 11
+              +7 (929) 625 18-92
             </a>
             <span className="hidden sm:block">•</span>
-            <a href="mailto:1234d@gmail.com" className="flex items-center gap-2 text-lg hover:text-accent transition-colors">
+            <a href="mailto:zakaz2009@yandex.ru" className="flex items-center gap-2 text-lg hover:text-accent transition-colors">
               <Icon name="Mail" size={20} />
-              1234d@gmail.com
+              zakaz2009@yandex.ru
             </a>
           </div>
           <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90">
