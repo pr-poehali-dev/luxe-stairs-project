@@ -21,9 +21,7 @@ const Gallery = () => {
 
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <h1 className="text-5xl md:text-6xl font-bold text-center mb-4 animate-fade-in">
-            Галерея наших работ
-          </h1>
+          <h1 className="text-5xl md:text-6xl font-bold text-center mb-4 animate-fade-in">Примеры проектов</h1>
           <p className="text-center text-xl text-muted-foreground mb-16 max-w-2xl mx-auto">
             Каждый проект уникален и создан с любовью к деталям
           </p>
