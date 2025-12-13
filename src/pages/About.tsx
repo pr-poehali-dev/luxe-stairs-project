@@ -134,10 +134,7 @@ const About = () => {
               +7 (929) 625 18-92
             </a>
             <span className="hidden sm:block">•</span>
-            <a href="mailto:zakaz2009@yandex.ru" className="flex items-center gap-2 hover:text-accent transition-colors">
-              <Icon name="Mail" size={20} />
-              zakaz2009@yandex.ru
-            </a>
+            <a href="mailto:zakaz2009@yandex.ru" className="flex items-center gap-2 hover:text-accent transition-colors">zakaz.mebel2009@yandex.ru</a>
             <span className="hidden sm:block">•</span>
             <div className="flex items-center gap-2">
               <Icon name="MapPin" size={20} />
