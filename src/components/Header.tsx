@@ -62,9 +62,9 @@ const Header = () => {
               <Icon name="Phone" size={16} />
               +7 (929) 625 18-92
             </a>
-            <a href="mailto:zakaz2009@yandex.ru" className="flex items-center gap-2 text-sm hover:text-accent transition-colors">
+            <a href="mailto:zakaz.mebel2009@yandex.ru" className="flex items-center gap-2 text-sm hover:text-accent transition-colors">
               <Icon name="Mail" size={16} />
-              zakaz2009@yandex.ru
+              zakaz.mebel2009@yandex.ru
             </a>
           </div>
         </div>
