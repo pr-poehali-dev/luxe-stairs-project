@@ -35,7 +35,9 @@ const Contacts = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-2">Телефон</h3>
-                    <a href="tel:+79296251892" className="text-muted-foreground hover:text-accent transition-colors">+7 (929) 540 68-65</a>
+                    <a href="tel:+79295406865" className="text-muted-foreground hover:text-accent transition-colors">
+                      +7 (929) 540 68-65
+                    </a>
                     <p className="text-sm text-muted-foreground mt-1">
                       Ежедневно с 9:00 до 21:00
                     </p>
@@ -79,7 +81,7 @@ const Contacts = () => {
                 <h3 className="font-semibold mb-4">Мы в мессенджерах</h3>
                 <div className="flex gap-4">
                   <a
-                    href="https://t.me/+79296251892"
+                    href="https://t.me/+79295406865"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-accent/20 hover:bg-accent hover:text-primary flex items-center justify-center transition-all"
@@ -88,7 +90,7 @@ const Contacts = () => {
                     <Icon name="Send" size={24} />
                   </a>
                   <a
-                    href="https://wa.me/79296251892"
+                    href="https://wa.me/79295406865"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-accent/20 hover:bg-accent hover:text-primary flex items-center justify-center transition-all"
@@ -104,7 +106,7 @@ const Contacts = () => {
                     <Icon name="Mail" size={24} />
                   </a>
                   <a
-                    href="tel:+79296251892"
+                    href="tel:+79295406865"
                     className="w-12 h-12 rounded-full bg-accent/20 hover:bg-accent hover:text-primary flex items-center justify-center transition-all"
                     title="Позвонить"
                   >
