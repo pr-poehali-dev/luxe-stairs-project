@@ -17,10 +17,7 @@ const Footer = () => {
                 <Icon name="Phone" size={16} />
                 +7 (929) 625 18-92
               </a>
-              <a href="mailto:zakaz2009@yandex.ru" className="flex items-center gap-2 hover:text-accent transition-colors">
-                <Icon name="Mail" size={16} />
-                zakaz2009@yandex.ru
-              </a>
+              <a href="mailto:zakaz2009@yandex.ru" className="flex items-center gap-2 hover:text-accent transition-colors">zakaz.mebel2009@yandex.ru</a>
               <p className="flex items-center gap-2">
                 <Icon name="MapPin" size={16} />
                 г. Москва
