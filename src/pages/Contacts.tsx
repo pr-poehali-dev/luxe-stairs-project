@@ -52,8 +52,8 @@ const Contacts = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-2">Email</h3>
-                    <a href="mailto:zakaz2009@yandex.ru" className="text-muted-foreground hover:text-accent transition-colors">
-                      zakaz2009@yandex.ru
+                    <a href="mailto:zakaz.mebel2009@yandex.ru" className="text-muted-foreground hover:text-accent transition-colors">
+                      zakaz.mebel2009@yandex.ru
                     </a>
                     <p className="text-sm text-muted-foreground mt-1">
                       Ответим в течение 24 часов
@@ -81,22 +81,34 @@ const Contacts = () => {
                 <h3 className="font-semibold mb-4">Мы в мессенджерах</h3>
                 <div className="flex gap-4">
                   <a
+                    href="https://t.me/+79296251892"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-12 h-12 rounded-full bg-accent/20 hover:bg-accent hover:text-primary flex items-center justify-center transition-all"
+                    title="Telegram"
+                  >
+                    <Icon name="Send" size={24} />
+                  </a>
+                  <a
                     href="https://wa.me/79296251892"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-accent/20 hover:bg-accent hover:text-primary flex items-center justify-center transition-all"
+                    title="WhatsApp"
                   >
                     <Icon name="MessageCircle" size={24} />
                   </a>
                   <a
-                    href="mailto:zakaz2009@yandex.ru"
+                    href="mailto:zakaz.mebel2009@yandex.ru"
                     className="w-12 h-12 rounded-full bg-accent/20 hover:bg-accent hover:text-primary flex items-center justify-center transition-all"
+                    title="Email"
                   >
                     <Icon name="Mail" size={24} />
                   </a>
                   <a
                     href="tel:+79296251892"
                     className="w-12 h-12 rounded-full bg-accent/20 hover:bg-accent hover:text-primary flex items-center justify-center transition-all"
+                    title="Позвонить"
                   >
                     <Icon name="Phone" size={24} />
                   </a>
