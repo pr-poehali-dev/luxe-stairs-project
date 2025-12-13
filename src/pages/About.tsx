@@ -129,10 +129,7 @@ const About = () => {
         <div className="container mx-auto px-4 text-center">
           <h3 className="text-3xl font-bold mb-6">Контактная информация</h3>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-lg">
-            <a href="tel:+79296251892" className="flex items-center gap-2 hover:text-accent transition-colors">
-              <Icon name="Phone" size={20} />
-              +7 (929) 625 18-92
-            </a>
+            <a href="tel:+79296251892" className="flex items-center gap-2 hover:text-accent transition-colors">+7 (929) 540 68-65</a>
             <span className="hidden sm:block">•</span>
             <a href="mailto:zakaz2009@yandex.ru" className="flex items-center gap-2 hover:text-accent transition-colors">zakaz.mebel2009@yandex.ru</a>
             <span className="hidden sm:block">•</span>
