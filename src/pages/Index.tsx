@@ -192,10 +192,7 @@ const Index = () => {
               +7 (929) 625 18-92
             </a>
             <span className="hidden sm:block">•</span>
-            <a href="mailto:zakaz2009@yandex.ru" className="flex items-center gap-2 text-lg hover:text-accent transition-colors">
-              <Icon name="Mail" size={20} />
-              zakaz2009@yandex.ru
-            </a>
+            <a href="mailto:zakaz2009@yandex.ru" className="flex items-center gap-2 text-lg hover:text-accent transition-colors">zakaz.mebel2009@yandex.ru</a>
           </div>
           <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90">
             <Link to="/contacts">Оставить заявку</Link>
